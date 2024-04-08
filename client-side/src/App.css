@@ -1,0 +1,99 @@
+/* Reset css */
+* {
+  /* Emmet */
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: black;
+  max-width: 1340px;
+}
+
+html {
+  font-family: 'Times New Roman', Times, Helvetica;
+}
+
+.App {
+  color: black;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.top-nav {
+  color: white;
+  justify-content: center;
+  text-decoration: none;
+  list-style: none;
+}
+
+.Body {
+  min-height: 100vh;
+  font-size: 14px;
+  color: black;
+  flex-direction: row;
+  display: flex;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.SideBar {
+  width: 30%;
+}
+
+.side-nav-ul {
+  color: white;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.login-input {
+  margin-top: 7px;
+}
+
+.login-input:focus-visible {
+  outline: none;
+}
+
+.login-form {
+  position: absolute;
+  bottom: 40%;
+  left: 42%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  width: 210px;
+  height: 22%;
+  border-radius: 5px;
+  background-color: bisque;
+}
+
+.login-bar {
+  display: flex;
+  justify-content: center;
+}
+
+.submit-btn {
+  width: 30%;
+}
+
+.top-nav:hover {
+  color: #61dafb;
+}
+
+.top-bar {
+  padding: 8px;
+  display: flex;
+  position: absolute;
+  background-color: #282c34;
+  width: 100%;
+  font-size: larger;
+}
